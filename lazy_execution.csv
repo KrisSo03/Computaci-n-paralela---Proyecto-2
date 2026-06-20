@@ -1,0 +1,4 @@
+Tipo,Tiempo (s),Memory,Descripción
+Eager (read_csv),0.16678706804911295,35.81MB,Carga toda la data en memoria
+Lazy (scan + collect),0.22551178932189941,35.81MB,Optimiza consultas antes de cargar
+Lazy Plan (scan solamente),0.0002181529998779297,~0MB,Solo construye el plan
